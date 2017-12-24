@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.logistics.sj.appv1.ui.Primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Truck Number"
+            android:textSize="13sp"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="8sp"/>
+
+        <EditText
+            android:id="@+id/TruckNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Truck Number"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ownner Name"
+            android:textSize="13sp"
+            android:layout_marginLeft="8sp"
+            android:layout_marginTop="8sp"/>
+
+        <EditText
+            android:id="@+id/OwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Owner Name"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/OwnerNumberText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/OwnerNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:inputType="number"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="add"
+                android:onClick="addOwnerNumber"/>
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="remove"
+                android:onClick="removeOwnerNumber"/>
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="call"
+                android:onClick="call"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/AccountNumberText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/accounts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.AppCompatSpinner>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/AC_A"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="ADD AC"
+                android:onClick="addAccountNumber"/>
+            <Button
+                android:id="@+id/AC_R"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="REMVE AC"
+                android:onClick="removeAccoutNumber"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ACPicture_A"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="ADD"
+                android:onClick="takePicture"/>
+            <Button
+                android:id="@+id/getAC"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="get"
+                android:onClick="getImageFromGallery"/>
+            <Button
+                android:id="@+id/viewAC"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="view"
+                android:onClick="viewImage"/>
+
+            <Button
+                android:id="@+id/ACPicture_S"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="SHARE "
+                android:onClick="shareImage"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAN"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/takePAN"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="add"
+                android:onClick="takePicture"/>
+            <Button
+                android:id="@+id/getPAN"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="get"
+                android:onClick="getImageFromGallery"/>
+            <Button
+                android:id="@+id/viewPAN"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="view"
+                android:onClick="viewImage"/>
+            <Button
+                android:id="@+id/sharePAN"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="share"
+                android:onClick="shareImage"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RC"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/takeRC"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="add"
+                android:onClick="takePicture"/>
+            <Button
+                android:id="@+id/getRC"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="get"
+                android:onClick="getImageFromGallery"/>
+            <Button
+                android:id="@+id/viewRC"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="view"
+                android:onClick="viewImage"/>
+            <Button
+                android:id="@+id/shareRC"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="share"
+                android:onClick="shareImage"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="TDS"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/takeTDS"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="add"
+                android:onClick="takePicture"/>
+            <Button
+                android:id="@+id/getTDS"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="get"
+                android:onClick="getImageFromGallery"/>
+            <Button
+                android:id="@+id/viewTDS"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="view"
+                android:onClick="viewImage"/>
+            <Button
+                android:id="@+id/shareTDS"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="share"
+                android:onClick="shareImage"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="UPDATE"
+                android:onClick="updateRecord"/>
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="ADD"
+                android:onClick="addRecord"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

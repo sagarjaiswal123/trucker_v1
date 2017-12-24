@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Shivam Roadways</string>
+    <string name="details_app_name">Truck Details</string>
+    <string name="TruckNumber">TruckNumber</string>
+    <string name="DriverName">DriverName</string>
+    <string name="PhoneNumber">PhoneNumber</string>
+    <string name="PAN">PAN</string>
+    <string name="RC">RC</string>
+    <string name="Edit">Edit</string>
+    <string name="Add">Add</string>
+</resources>

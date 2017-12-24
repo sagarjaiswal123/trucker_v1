@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\SAGAR\android projects\Trucker\Appv1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\SAGAR\android projects\Trucker\Appv1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_56c0bf8c4ae0897f308a0e74772ca45b534bf65f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AJ\.android\build-cache\0d371040b6046eebb7f74ad6d007f9148ba98136\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="E:\SAGAR\android projects\Trucker\Appv1\app\build\intermediates\pre-dexed\debug\classes_eb7657d0c5284f7aa53465786d3da98187d90d0c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SAGAR\android projects\Trucker\Appv1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="22dc9a37db7832d2e5afe9f23de24defa00aceef">
+        <dex dex="E:\SAGAR\android projects\Trucker\Appv1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_95db8ad03955a00ae2e8b0e84ca5b3503ddf7526\classes.dex" />
+    </item>
+
+</items>
